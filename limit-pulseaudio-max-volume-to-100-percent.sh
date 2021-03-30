@@ -11,7 +11,7 @@ fi
 if [[ $x -ge 101 ]]
 then
     echo TOO_LOUD_DETECTED__FIXING
-    amixer -D pulse sset Master 100%
+    amixer -D pulse sset Master 99%
 fi
 
 done
