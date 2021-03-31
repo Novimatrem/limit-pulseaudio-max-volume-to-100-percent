@@ -14,6 +14,9 @@ then
     amixer -D pulse sset Master 99%
 fi
 
+echo "sleep 1s to reduce cpu usage"
+sleep 1s
+
 done
 
 # Limit PulseAudio MAX volume to 100%, to prevent hearing damage/clipping
