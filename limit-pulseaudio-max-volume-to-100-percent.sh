@@ -12,6 +12,7 @@ if [[ $x -ge 101 ]]
 then
     echo TOO_LOUD_DETECTED__FIXING
     amixer -D pulse sset Master 99%
+    pactl set-sink-volume @DEFAULT_SINK@ 99%
 fi
 
 echo "sleep 1s to reduce cpu usage"
