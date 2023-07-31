@@ -1,5 +1,7 @@
 # limit-pulseaudio-max-volume-to-100-percent
 
+# (there is a 50% limit version in the folder too!!)
+
 Limit PulseAudio MAX volume to 100%, to prevent hearing damage/clipping
 Licensed under the GNU GPL v3.0.
 
